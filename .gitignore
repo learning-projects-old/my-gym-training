@@ -14,7 +14,6 @@ yarn-error.log*
 pnpm-debug.log*
 
 # Editor directories and files
-.idea
 .vscode
 *.suo
 *.ntvs*
@@ -28,3 +27,9 @@ backend/operations.*
 *.HEIC
 *.jpg
 *.7z
+
+.idea/*
+!.idea/.name
+!.idea/icon.svg
+!.idea/runConfigurations/
+!.idea/runConfigurations/*.xml
