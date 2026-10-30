@@ -1,0 +1,2549 @@
+{
+  "schemaVersion": 1,
+  "snapshot": "2026-10-30T14:47:11.360Z",
+  "project": "my-gym-training",
+  "root": ".",
+  "method": "static-local-index",
+  "limitations": [
+    "Нет динамических вызовов и сетевых интеграций",
+    "Сверять sha256 и evidence.line с текущими исходниками",
+    "Наличие зависимости не доказывает работоспособность"
+  ],
+  "nodes": [
+    {
+      "id": "project:my-gym-training",
+      "type": "project",
+      "name": "my-gym-training"
+    },
+    {
+      "id": "project:my-gym-training/file:client/.eslintrc.js",
+      "type": "file",
+      "path": "client/.eslintrc.js",
+      "sha256": "5c91db0d86f9e2b2980eb614d235863420c6035e25143bf5cd9453cac09b0ba9",
+      "bytes": 671
+    },
+    {
+      "id": "project:my-gym-training/file:client/README.md",
+      "type": "file",
+      "path": "client/README.md",
+      "sha256": "6270e8ed89d3058452f122c43dba4729a4bcf16a5fdc63fa44ec7441ac3affbf",
+      "bytes": 6485
+    },
+    {
+      "id": "project:my-gym-training/file:client/babel.config.js",
+      "type": "file",
+      "path": "client/babel.config.js",
+      "sha256": "61bd0674ba4d36002c764cb037b03133dc85219dc409268f576930d9238ee057",
+      "bytes": 133
+    },
+    {
+      "id": "project:my-gym-training/file:client/doc/README.md",
+      "type": "file",
+      "path": "client/doc/README.md",
+      "sha256": "85f5c3c2ecb219136d9ffa5b6c76be7314419de52eca5bcd925cb13ce9ffd1e7",
+      "bytes": 4317
+    },
+    {
+      "id": "project:my-gym-training/file:client/doc/specification.md",
+      "type": "file",
+      "path": "client/doc/specification.md"
+    },
+    {
+      "id": "project:my-gym-training/file:client/ecosystem.config.js",
+      "type": "file",
+      "path": "client/ecosystem.config.js",
+      "sha256": "bd166fe1f743a47e3a3254d3f400ecd8333cbf143f938539c996b55419b9c132",
+      "bytes": 783
+    },
+    {
+      "id": "project:my-gym-training/file:client/note.ps1",
+      "type": "file",
+      "path": "client/note.ps1",
+      "sha256": "f6530eef70d1e41a0bc06abc1e23d376d191bf8da7a0874ea9069c41028e9b2c",
+      "bytes": 587
+    },
+    {
+      "id": "project:my-gym-training/file:client/package.json",
+      "type": "file",
+      "path": "client/package.json",
+      "sha256": "1ea35e0d0f7ed63d307461496efd724fca85ac013b877749f3899f40f4b6ffe7",
+      "bytes": 1900
+    },
+    {
+      "id": "project:my-gym-training/file:client/pm2.config.js",
+      "type": "file",
+      "path": "client/pm2.config.js",
+      "sha256": "294e7d20229bd40a7dd7765e6bb9622e86e411b44c06381279c9e99b165a697f",
+      "bytes": 131
+    },
+    {
+      "id": "project:my-gym-training/file:client/src/App.vue",
+      "type": "file",
+      "path": "client/src/App.vue",
+      "sha256": "6748b991c5980e49ed579f8d1662f9c2ffab6e6e0408afe5aae84fe9693cea67",
+      "bytes": 795
+    },
+    {
+      "id": "project:my-gym-training/file:client/src/api/api_finance.js",
+      "type": "file",
+      "path": "client/src/api/api_finance.js",
+      "sha256": "3483d03ff68210efad0be2b470d5f0ed759157382db130e9094a75e215d259fb",
+      "bytes": 1412
+    },
+    {
+      "id": "project:my-gym-training/file:client/src/api/axiosConfig.js",
+      "type": "file",
+      "path": "client/src/api/axiosConfig.js",
+      "sha256": "83f344ff9f51f4a2c006320625534e8edf02e5fca97f5b58ad4d9efe7e10971b",
+      "bytes": 207
+    },
+    {
+      "id": "project:my-gym-training/file:client/src/api/errorHandler.js",
+      "type": "file",
+      "path": "client/src/api/errorHandler.js",
+      "sha256": "f4d7eead383926c17e2c4663909d60d5c6e21adbae16c006130ed7d32f1c97c0",
+      "bytes": 704
+    },
+    {
+      "id": "project:my-gym-training/file:client/src/api/getDatabaseInfo.js",
+      "type": "file",
+      "path": "client/src/api/getDatabaseInfo.js",
+      "sha256": "c3067677d59dec9f2dd74ffe824f5aee0deaf22deba1c209ee62c3526d0fdb28",
+      "bytes": 271
+    },
+    {
+      "id": "project:my-gym-training/file:client/src/api/get_nom.js",
+      "type": "file",
+      "path": "client/src/api/get_nom.js",
+      "sha256": "8aea97fd79b210694dce069392be7e2f6788bca7ccf9fa9504ff623e608b61a5",
+      "bytes": 967
+    },
+    {
+      "id": "project:my-gym-training/file:client/src/api/get_param.js",
+      "type": "file",
+      "path": "client/src/api/get_param.js",
+      "sha256": "51cf293b4a601aabff591cf88e476fb8a5e95188d6ffbd07da9b025399ca7d24",
+      "bytes": 404
+    },
+    {
+      "id": "project:my-gym-training/file:client/src/api/index.js",
+      "type": "file",
+      "path": "client/src/api/index.js",
+      "sha256": "b9ab1509f7a059ce41242d8b678f6b8d34768613d898618a9abbe65f744c1177",
+      "bytes": 56
+    },
+    {
+      "id": "project:my-gym-training/file:client/src/components/AppContent.vue",
+      "type": "file",
+      "path": "client/src/components/AppContent.vue",
+      "sha256": "2bd861d21c5a8aa65c4cf1aa7444074e4f37c32340e88d8ae2687be4149588ba",
+      "bytes": 142
+    },
+    {
+      "id": "project:my-gym-training/file:client/src/components/AppFooter.vue",
+      "type": "file",
+      "path": "client/src/components/AppFooter.vue",
+      "sha256": "4fa3dd327c18000ae997e11ccf48ef1fefd57bed7436d39e9f575f16c8153f6e",
+      "bytes": 849
+    },
+    {
+      "id": "project:my-gym-training/file:client/src/components/AppHeader.vue",
+      "type": "file",
+      "path": "client/src/components/AppHeader.vue",
+      "sha256": "3f52a59e06fcd10d4643917592d8ee1698ad2746e79f62951362bf8ee2b882a6",
+      "bytes": 3274
+    },
+    {
+      "id": "project:my-gym-training/file:client/src/components/SidebarMenuItem.vue",
+      "type": "file",
+      "path": "client/src/components/SidebarMenuItem.vue",
+      "sha256": "c9b7a0b8a7aac2a31e4b9c168720549db781ddce469317028292a42ed7f990dc",
+      "bytes": 776
+    },
+    {
+      "id": "project:my-gym-training/file:client/src/components/SidebarMenuList.vue",
+      "type": "file",
+      "path": "client/src/components/SidebarMenuList.vue",
+      "sha256": "029dd030218d3e56b0a508d0401f93cd319efd2cb49da19ff8bf0ee8b3a3fdc4",
+      "bytes": 1227
+    },
+    {
+      "id": "project:my-gym-training/file:client/src/components/TopMenuBar.vue",
+      "type": "file",
+      "path": "client/src/components/TopMenuBar.vue",
+      "sha256": "af7bef0d27613f50fee226b5cb7edcdabd9bf117fa887b9816bda516f772e49a",
+      "bytes": 1363
+    },
+    {
+      "id": "project:my-gym-training/file:client/src/components/index.js",
+      "type": "file",
+      "path": "client/src/components/index.js",
+      "sha256": "44c3439788e761516eb9a10b8849a625a96e2d7a86a8ad86768abd0eec609300",
+      "bytes": 205
+    },
+    {
+      "id": "project:my-gym-training/file:client/src/components/shared/Modal.vue",
+      "type": "file",
+      "path": "client/src/components/shared/Modal.vue",
+      "sha256": "d91e0a32a155ad25903d544b63c0a10a1c3eaa4a08585bb717f09a714a7ce7bc",
+      "bytes": 950
+    },
+    {
+      "id": "project:my-gym-training/file:client/src/main.js",
+      "type": "file",
+      "path": "client/src/main.js",
+      "sha256": "8aed6cef35031fd521fdd9db96454217448acd656c9422581fc67385eb315d2b",
+      "bytes": 515
+    },
+    {
+      "id": "project:my-gym-training/file:client/src/modules/editor-finance/Home.vue",
+      "type": "file",
+      "path": "client/src/modules/editor-finance/Home.vue",
+      "sha256": "a4214a60d8b3f7bf1b277993881a4c4636db4744cc5bdcc23962d2d18bd5fe2d",
+      "bytes": 1007
+    },
+    {
+      "id": "project:my-gym-training/file:client/src/modules/editor-finance/api/workoutApi.js",
+      "type": "file",
+      "path": "client/src/modules/editor-finance/api/workoutApi.js",
+      "sha256": "18f57315ba607be847d6d7361957785bc12fd45dd4918ed1566640c4fc471421",
+      "bytes": 700
+    },
+    {
+      "id": "project:my-gym-training/file:client/src/modules/editor-finance/components/Form1/Chart.vue",
+      "type": "file",
+      "path": "client/src/modules/editor-finance/components/Form1/Chart.vue",
+      "sha256": "e03b238393ec1f933e80733c9103941eda7e8f6c70b6706a87ef8354d8fd2e90",
+      "bytes": 2266
+    },
+    {
+      "id": "project:my-gym-training/file:client/src/modules/editor-finance/components/Form1/Modal.vue",
+      "type": "file",
+      "path": "client/src/modules/editor-finance/components/Form1/Modal.vue",
+      "sha256": "956f70cc119ffac6d36f748b9e08772a8502a488eeceb1f3249b21f382a2a6bf",
+      "bytes": 3581
+    },
+    {
+      "id": "project:my-gym-training/file:client/src/modules/editor-finance/components/Form1/MonthlySummary.vue",
+      "type": "file",
+      "path": "client/src/modules/editor-finance/components/Form1/MonthlySummary.vue",
+      "sha256": "1804f53ae47b4f53443645d039b8eb838b1bd175e64910e637e98e0716b165b3",
+      "bytes": 2967
+    },
+    {
+      "id": "project:my-gym-training/file:client/src/modules/editor-finance/components/Form1/Table.vue",
+      "type": "file",
+      "path": "client/src/modules/editor-finance/components/Form1/Table.vue",
+      "sha256": "02187451a15f4a32feb52d3aa5beac9cdb2e64560881987d92320b3e6f720cdb",
+      "bytes": 7605
+    },
+    {
+      "id": "project:my-gym-training/file:client/src/modules/editor-finance/form/WorkoutDropSet.vue",
+      "type": "file",
+      "path": "client/src/modules/editor-finance/form/WorkoutDropSet.vue",
+      "sha256": "ed5886d2b3a801a013159b7ff3df46b8dfd52d7e853cd8a25a15634a934a0e73",
+      "bytes": 1450
+    },
+    {
+      "id": "project:my-gym-training/file:client/src/modules/editor-finance/form/WorkoutExercise.vue",
+      "type": "file",
+      "path": "client/src/modules/editor-finance/form/WorkoutExercise.vue",
+      "sha256": "c4ee04a77cf887c57280e454eb22aacb0a6377e61764adcb1c6ff30242125164",
+      "bytes": 5181
+    },
+    {
+      "id": "project:my-gym-training/file:client/src/modules/editor-finance/form/WorkoutForm.vue",
+      "type": "file",
+      "path": "client/src/modules/editor-finance/form/WorkoutForm.vue",
+      "sha256": "ae45134fb94dc3aadb28d8223b332d6b68df7f1331ea9f9f2d09dc059be53ab4",
+      "bytes": 2769
+    },
+    {
+      "id": "project:my-gym-training/file:client/src/modules/editor-finance/store/workoutStore.js",
+      "type": "file",
+      "path": "client/src/modules/editor-finance/store/workoutStore.js",
+      "sha256": "b459cb0ad7cc9e87397d1248962d50cf987099f659fa7f2d1c8c73413ecd4db1",
+      "bytes": 1314
+    },
+    {
+      "id": "project:my-gym-training/file:client/src/modules/editor-finance/table/WorkoutSet.vue",
+      "type": "file",
+      "path": "client/src/modules/editor-finance/table/WorkoutSet.vue",
+      "sha256": "12dc8b2587cc347733c2f44e2c91ab2429a3daf6c4b0d5828b3b5ff7f428e5b5",
+      "bytes": 810
+    },
+    {
+      "id": "project:my-gym-training/file:client/src/modules/editor-finance/table/WorkoutTable.vue",
+      "type": "file",
+      "path": "client/src/modules/editor-finance/table/WorkoutTable.vue",
+      "sha256": "b24f9daffc1b586d9cf0799ca900b9f7d058c191594349f0b99e727c9149d9e4",
+      "bytes": 2823
+    },
+    {
+      "id": "project:my-gym-training/file:client/src/modules/editor-finance/utils/dateUtils.js",
+      "type": "file",
+      "path": "client/src/modules/editor-finance/utils/dateUtils.js",
+      "sha256": "6fbe0ff437faebd004bfb010bd268255a79bb77153cd848beb9e1e8a6da55cdf",
+      "bytes": 1290
+    },
+    {
+      "id": "project:my-gym-training/file:client/src/pages/ChartData.vue",
+      "type": "file",
+      "path": "client/src/pages/ChartData.vue",
+      "sha256": "e377f45fbde7ee867983e32895338ef1f35028fbd6355b51621a199ec11b3b86",
+      "bytes": 8107
+    },
+    {
+      "id": "project:my-gym-training/file:client/src/pages/Deposit.vue",
+      "type": "file",
+      "path": "client/src/pages/Deposit.vue",
+      "sha256": "fbbb193c44dc72f54136705a1b69187d7055219ac2a65a65abc37bf4a3f44ef7",
+      "bytes": 3168
+    },
+    {
+      "id": "project:my-gym-training/file:client/src/pages/FinanceSumMonth.vue",
+      "type": "file",
+      "path": "client/src/pages/FinanceSumMonth.vue",
+      "sha256": "1ecd957ea3dadb408731292c2af972426ca9b48875dc37450deed46099bcc76e",
+      "bytes": 3114
+    },
+    {
+      "id": "project:my-gym-training/file:client/src/pages/TabsMonth.vue",
+      "type": "file",
+      "path": "client/src/pages/TabsMonth.vue",
+      "sha256": "c0fd188b900547242e41f869622e288b7ac330f6dfa1c1ff6ea2a0f7589bf99b",
+      "bytes": 3629
+    },
+    {
+      "id": "project:my-gym-training/file:client/src/plugins/index.js",
+      "type": "file",
+      "path": "client/src/plugins/index.js",
+      "sha256": "ec0b4eb844ca60a40499a6ce0a4fd89e13267c1282f584885f7736a1ef5bdd0b",
+      "bytes": 179
+    },
+    {
+      "id": "project:my-gym-training/file:client/src/plugins/vuetify.js",
+      "type": "file",
+      "path": "client/src/plugins/vuetify.js",
+      "sha256": "0e3a5d53d5557255ff041557c0e52d2939d65cb0dc31325634c3e415990249b8",
+      "bytes": 1108
+    },
+    {
+      "id": "project:my-gym-training/file:client/src/plugins/webfontloader.js",
+      "type": "file",
+      "path": "client/src/plugins/webfontloader.js",
+      "sha256": "99313de759ea78199c21155bf9a9531375a30b5fcaff15ee5c7552a43a29e45f",
+      "bytes": 385
+    },
+    {
+      "id": "project:my-gym-training/file:client/src/router/index.js",
+      "type": "file",
+      "path": "client/src/router/index.js",
+      "sha256": "cf1642f5defc1e59bc95140a0bd666a2128f2a915b77c839068a6413d1d1e0d4",
+      "bytes": 1621
+    },
+    {
+      "id": "project:my-gym-training/file:client/src/store/store.js",
+      "type": "file",
+      "path": "client/src/store/store.js",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "id": "project:my-gym-training/file:client/src/views/404.vue",
+      "type": "file",
+      "path": "client/src/views/404.vue",
+      "sha256": "b78684008f7b93578ae5b781a46cd69f68c041e43909f1204fa1595f0be67300",
+      "bytes": 190
+    },
+    {
+      "id": "project:my-gym-training/file:client/src/views/Login.vue",
+      "type": "file",
+      "path": "client/src/views/Login.vue",
+      "sha256": "e42a40e020a1d542a755431eefa04e0f7c4447853d233a2ed7f4bf319f301f72",
+      "bytes": 2231
+    },
+    {
+      "id": "project:my-gym-training/file:client/src/views/Tool.vue",
+      "type": "file",
+      "path": "client/src/views/Tool.vue",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "id": "project:my-gym-training/file:client/start-app.sh",
+      "type": "file",
+      "path": "client/start-app.sh",
+      "sha256": "dc7e5c9731e773ea2e807bc0c27f400fe264fa37e5b5d46597ee287ae9b63dce",
+      "bytes": 83
+    },
+    {
+      "id": "project:my-gym-training/file:client/vite.config.js",
+      "type": "file",
+      "path": "client/vite.config.js",
+      "sha256": "d2e161abb216526dec495fbff7e6b42cd943924685796869f0e6abd3169f8045",
+      "bytes": 1193
+    },
+    {
+      "id": "project:my-gym-training/file:github/github/COMMIT_TEMPLATE.md",
+      "type": "file",
+      "path": "github/github/COMMIT_TEMPLATE.md"
+    },
+    {
+      "id": "project:my-gym-training/file:github/github/git-changes-report.common.js",
+      "type": "file",
+      "path": "github/github/git-changes-report.common.js",
+      "sha256": "4a2a2c863d7be4018693a519dd2be2348365af63c01dde48fa189b06ba56e67c",
+      "bytes": 1582
+    },
+    {
+      "id": "project:my-gym-training/file:github/github/git-changes-report.module.js",
+      "type": "file",
+      "path": "github/github/git-changes-report.module.js",
+      "sha256": "eb85a357c7d082c7e06a23ae4262eaf258e5ec4969d1223cb068f9b792f516c1",
+      "bytes": 1789
+    },
+    {
+      "id": "project:my-gym-training/file:github/list-files/list-files.js",
+      "type": "file",
+      "path": "github/list-files/list-files.js",
+      "sha256": "e81e9899c863706e126f372ef0c31b08aafa4d4f0a1dfff3828bd7fed04b28ee",
+      "bytes": 3849
+    },
+    {
+      "id": "project:my-gym-training/file:github/tree/generate-directory-tree.js",
+      "type": "file",
+      "path": "github/tree/generate-directory-tree.js",
+      "sha256": "f3d42ad3fd5c6bb8427bb555bf31dea47fb0e80a0f7a20e73248a1aa2c6ff097",
+      "bytes": 1733
+    },
+    {
+      "id": "project:my-gym-training/file:server/.eslintrc.js",
+      "type": "file",
+      "path": "server/.eslintrc.js",
+      "sha256": "6348c0206ca186752c473f90b4373d247985884719032d0dacf199f2d02ba3c5",
+      "bytes": 649
+    },
+    {
+      "id": "project:my-gym-training/file:server/NestJS.md",
+      "type": "file",
+      "path": "server/NestJS.md"
+    },
+    {
+      "id": "project:my-gym-training/file:server/README.md",
+      "type": "file",
+      "path": "server/README.md",
+      "sha256": "3223904e83650c5288557535060cd0a5af7ba7c58f3c922e1b24c9d7bc49987d",
+      "bytes": 2009
+    },
+    {
+      "id": "project:my-gym-training/file:server/create.js",
+      "type": "file",
+      "path": "server/create.js",
+      "sha256": "b12adbb7b3fcd0ab9f47aec3e424685a4034e206ae7c45380ccf1325b42aecc0",
+      "bytes": 1044
+    },
+    {
+      "id": "project:my-gym-training/file:server/nhost.toml",
+      "type": "file",
+      "path": "server/nhost.toml"
+    },
+    {
+      "id": "project:my-gym-training/file:server/package.json",
+      "type": "file",
+      "path": "server/package.json",
+      "sha256": "0272382b5b21c6aa4232cbb477ecedda22c66b1888279391855bc5de2b81684b",
+      "bytes": 515
+    },
+    {
+      "id": "project:my-gym-training/file:server/pm2.config.js",
+      "type": "file",
+      "path": "server/pm2.config.js",
+      "sha256": "f2b9bcf7d1a8b2dc5306b15c94e896eea5dfc590d58e69b9c1a1c1248abf0a36",
+      "bytes": 990
+    },
+    {
+      "id": "project:my-gym-training/file:server/src/app.js",
+      "type": "file",
+      "path": "server/src/app.js",
+      "sha256": "1ae09ab213968eea9f44a5f1f8cefdfd9a1d2ce1f79ba7030d6fd64160a40918",
+      "bytes": 1161
+    },
+    {
+      "id": "project:my-gym-training/file:server/src/config.js",
+      "type": "file",
+      "path": "server/src/config.js",
+      "sha256": "fac37c0f572988c31b150422482a812d72296531a2705cf8d57d37e356a35b48",
+      "bytes": 542
+    },
+    {
+      "id": "project:my-gym-training/file:server/src/controllers/auth.controller.js",
+      "type": "file",
+      "path": "server/src/controllers/auth.controller.js",
+      "sha256": "949ee220dd726c4d285474dca822f9574210ff5f8b8c97093573685ce6ea1562",
+      "bytes": 2039
+    },
+    {
+      "id": "project:my-gym-training/file:server/src/controllers/exercise-types.controller.js",
+      "type": "file",
+      "path": "server/src/controllers/exercise-types.controller.js",
+      "sha256": "d261d1f8c5cc9e3861bf489b1a8b931c56e1439d2a81957831d000bcf6bbdfbe",
+      "bytes": 940
+    },
+    {
+      "id": "project:my-gym-training/file:server/src/controllers/muscle-groups.controller.js",
+      "type": "file",
+      "path": "server/src/controllers/muscle-groups.controller.js",
+      "sha256": "ed703b3a8c8130f7c792f1802f0b2cb5781b3355899d68a195075fc55ff072f2",
+      "bytes": 864
+    },
+    {
+      "id": "project:my-gym-training/file:server/src/controllers/workout-sets.controller.js",
+      "type": "file",
+      "path": "server/src/controllers/workout-sets.controller.js",
+      "sha256": "17848583b46ef9ebe74653129124c816cc0f2a6866f4728b67e6c04a907b85b4",
+      "bytes": 3978
+    },
+    {
+      "id": "project:my-gym-training/file:server/src/controllers/workout.controller.js",
+      "type": "file",
+      "path": "server/src/controllers/workout.controller.js",
+      "sha256": "85f51fffde605c8e6387a6033882a828211d2f133f2ceb192798ac8e133689cb",
+      "bytes": 984
+    },
+    {
+      "id": "project:my-gym-training/file:server/src/db_type.js",
+      "type": "file",
+      "path": "server/src/db_type.js",
+      "sha256": "ba370fef8a20c551c575bbe36249ebf96d10864f7f0e39bdc676ad88d0157919",
+      "bytes": 647
+    },
+    {
+      "id": "project:my-gym-training/file:server/src/routers.js",
+      "type": "file",
+      "path": "server/src/routers.js",
+      "sha256": "99f41e7e1aec8f5d246a512624f7af50a726c85b92eb42265e92f782042f6e88",
+      "bytes": 751
+    },
+    {
+      "id": "package:npm:@date-io/date-fns",
+      "type": "package",
+      "name": "@date-io/date-fns",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:@fontsource/nunito",
+      "type": "package",
+      "name": "@fontsource/nunito",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:@mdi/font",
+      "type": "package",
+      "name": "@mdi/font",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:@ventralnet/vue3-jstree",
+      "type": "package",
+      "name": "@ventralnet/vue3-jstree",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:axios",
+      "type": "package",
+      "name": "axios",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:bcrypt",
+      "type": "package",
+      "name": "bcrypt",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:chart.js",
+      "type": "package",
+      "name": "chart.js",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:chartjs-adapter-date-fns",
+      "type": "package",
+      "name": "chartjs-adapter-date-fns",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:cors",
+      "type": "package",
+      "name": "cors",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:date-fns",
+      "type": "package",
+      "name": "date-fns",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:dotenv",
+      "type": "package",
+      "name": "dotenv",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:joi",
+      "type": "package",
+      "name": "joi",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:jsonwebtoken",
+      "type": "package",
+      "name": "jsonwebtoken",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:moment",
+      "type": "package",
+      "name": "moment",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:pg",
+      "type": "package",
+      "name": "pg",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:pg-promise",
+      "type": "package",
+      "name": "pg-promise",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:pinia",
+      "type": "package",
+      "name": "pinia",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:pm2",
+      "type": "package",
+      "name": "pm2",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:roboto-fontface",
+      "type": "package",
+      "name": "roboto-fontface",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:swagger-jsdoc",
+      "type": "package",
+      "name": "swagger-jsdoc",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:swagger-ui-express",
+      "type": "package",
+      "name": "swagger-ui-express",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:vue",
+      "type": "package",
+      "name": "vue",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:vue-chartjs",
+      "type": "package",
+      "name": "vue-chartjs",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:vue-jstree",
+      "type": "package",
+      "name": "vue-jstree",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:vue-router",
+      "type": "package",
+      "name": "vue-router",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:vue3-charts",
+      "type": "package",
+      "name": "vue3-charts",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:vue3-jstree-component",
+      "type": "package",
+      "name": "vue3-jstree-component",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:vuetify",
+      "type": "package",
+      "name": "vuetify",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:vuex",
+      "type": "package",
+      "name": "vuex",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:webfontloader",
+      "type": "package",
+      "name": "webfontloader",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:@babel/core",
+      "type": "package",
+      "name": "@babel/core",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:@babel/preset-env",
+      "type": "package",
+      "name": "@babel/preset-env",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:@vitejs/plugin-vue",
+      "type": "package",
+      "name": "@vitejs/plugin-vue",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:@vue/test-utils",
+      "type": "package",
+      "name": "@vue/test-utils",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:@vue/vue3-jest",
+      "type": "package",
+      "name": "@vue/vue3-jest",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:babel-jest",
+      "type": "package",
+      "name": "babel-jest",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:babel-plugin-transform-import-meta",
+      "type": "package",
+      "name": "babel-plugin-transform-import-meta",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:eslint",
+      "type": "package",
+      "name": "eslint",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:eslint-config-prettier",
+      "type": "package",
+      "name": "eslint-config-prettier",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:eslint-plugin-prettier",
+      "type": "package",
+      "name": "eslint-plugin-prettier",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:eslint-plugin-vue",
+      "type": "package",
+      "name": "eslint-plugin-vue",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:jest",
+      "type": "package",
+      "name": "jest",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:jest-environment-node",
+      "type": "package",
+      "name": "jest-environment-node",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:jest-transform-stub",
+      "type": "package",
+      "name": "jest-transform-stub",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:prettier",
+      "type": "package",
+      "name": "prettier",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:vite",
+      "type": "package",
+      "name": "vite",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:vite-plugin-vue-devtools",
+      "type": "package",
+      "name": "vite-plugin-vue-devtools",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:vite-plugin-vuetify",
+      "type": "package",
+      "name": "vite-plugin-vuetify",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:body-parser",
+      "type": "package",
+      "name": "body-parser",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:express",
+      "type": "package",
+      "name": "express",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:express-rate-limit",
+      "type": "package",
+      "name": "express-rate-limit",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:faker",
+      "type": "package",
+      "name": "faker",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:node-xlsx",
+      "type": "package",
+      "name": "node-xlsx",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:restify",
+      "type": "package",
+      "name": "restify",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:winston",
+      "type": "package",
+      "name": "winston",
+      "ecosystem": "npm"
+    }
+  ],
+  "edges": [
+    {
+      "source": "project:my-gym-training",
+      "target": "project:my-gym-training/file:client/.eslintrc.js",
+      "relation": "contains",
+      "evidence": {
+        "path": "client/.eslintrc.js"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:my-gym-training",
+      "target": "project:my-gym-training/file:client/README.md",
+      "relation": "contains",
+      "evidence": {
+        "path": "client/README.md"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:my-gym-training",
+      "target": "project:my-gym-training/file:client/babel.config.js",
+      "relation": "contains",
+      "evidence": {
+        "path": "client/babel.config.js"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:my-gym-training",
+      "target": "project:my-gym-training/file:client/doc/README.md",
+      "relation": "contains",
+      "evidence": {
+        "path": "client/doc/README.md"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:my-gym-training",
+      "target": "project:my-gym-training/file:client/doc/specification.md",
+      "relation": "contains",
+      "evidence": {
+        "path": "client/doc/specification.md"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:my-gym-training",
+      "target": "project:my-gym-training/file:client/ecosystem.config.js",
+      "relation": "contains",
+      "evidence": {
+        "path": "client/ecosystem.config.js"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:my-gym-training",
+      "target": "project:my-gym-training/file:client/note.ps1",
+      "relation": "contains",
+      "evidence": {
+        "path": "client/note.ps1"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:my-gym-training",
+      "target": "project:my-gym-training/file:client/package.json",
+      "relation": "contains",
+      "evidence": {
+        "path": "client/package.json"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:my-gym-training",
+      "target": "project:my-gym-training/file:client/pm2.config.js",
+      "relation": "contains",
+      "evidence": {
+        "path": "client/pm2.config.js"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:my-gym-training",
+      "target": "project:my-gym-training/file:client/src/App.vue",
+      "relation": "contains",
+      "evidence": {
+        "path": "client/src/App.vue"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:my-gym-training",
+      "target": "project:my-gym-training/file:client/src/api/api_finance.js",
+      "relation": "contains",
+      "evidence": {
+        "path": "client/src/api/api_finance.js"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:my-gym-training",
+      "target": "project:my-gym-training/file:client/src/api/axiosConfig.js",
+      "relation": "contains",
+      "evidence": {
+        "path": "client/src/api/axiosConfig.js"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:my-gym-training",
+      "target": "project:my-gym-training/file:client/src/api/errorHandler.js",
+      "relation": "contains",
+      "evidence": {
+        "path": "client/src/api/errorHandler.js"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:my-gym-training",
+      "target": "project:my-gym-training/file:client/src/api/getDatabaseInfo.js",
+      "relation": "contains",
+      "evidence": {
+        "path": "client/src/api/getDatabaseInfo.js"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:my-gym-training",
+      "target": "project:my-gym-training/file:client/src/api/get_nom.js",
+      "relation": "contains",
+      "evidence": {
+        "path": "client/src/api/get_nom.js"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:my-gym-training",
+      "target": "project:my-gym-training/file:client/src/api/get_param.js",
+      "relation": "contains",
+      "evidence": {
+        "path": "client/src/api/get_param.js"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:my-gym-training",
+      "target": "project:my-gym-training/file:client/src/api/index.js",
+      "relation": "contains",
+      "evidence": {
+        "path": "client/src/api/index.js"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:my-gym-training",
+      "target": "project:my-gym-training/file:client/src/components/AppContent.vue",
+      "relation": "contains",
+      "evidence": {
+        "path": "client/src/components/AppContent.vue"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:my-gym-training",
+      "target": "project:my-gym-training/file:client/src/components/AppFooter.vue",
+      "relation": "contains",
+      "evidence": {
+        "path": "client/src/components/AppFooter.vue"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:my-gym-training",
+      "target": "project:my-gym-training/file:client/src/components/AppHeader.vue",
+      "relation": "contains",
+      "evidence": {
+        "path": "client/src/components/AppHeader.vue"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:my-gym-training",
+      "target": "project:my-gym-training/file:client/src/components/SidebarMenuItem.vue",
+      "relation": "contains",
+      "evidence": {
+        "path": "client/src/components/SidebarMenuItem.vue"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:my-gym-training",
+      "target": "project:my-gym-training/file:client/src/components/SidebarMenuList.vue",
+      "relation": "contains",
+      "evidence": {
+        "path": "client/src/components/SidebarMenuList.vue"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:my-gym-training",
+      "target": "project:my-gym-training/file:client/src/components/TopMenuBar.vue",
+      "relation": "contains",
+      "evidence": {
+        "path": "client/src/components/TopMenuBar.vue"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:my-gym-training",
+      "target": "project:my-gym-training/file:client/src/components/index.js",
+      "relation": "contains",
+      "evidence": {
+        "path": "client/src/components/index.js"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:my-gym-training",
+      "target": "project:my-gym-training/file:client/src/components/shared/Modal.vue",
+      "relation": "contains",
+      "evidence": {
+        "path": "client/src/components/shared/Modal.vue"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:my-gym-training",
+      "target": "project:my-gym-training/file:client/src/main.js",
+      "relation": "contains",
+      "evidence": {
+        "path": "client/src/main.js"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:my-gym-training",
+      "target": "project:my-gym-training/file:client/src/modules/editor-finance/Home.vue",
+      "relation": "contains",
+      "evidence": {
+        "path": "client/src/modules/editor-finance/Home.vue"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:my-gym-training",
+      "target": "project:my-gym-training/file:client/src/modules/editor-finance/api/workoutApi.js",
+      "relation": "contains",
+      "evidence": {
+        "path": "client/src/modules/editor-finance/api/workoutApi.js"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:my-gym-training",
+      "target": "project:my-gym-training/file:client/src/modules/editor-finance/components/Form1/Chart.vue",
+      "relation": "contains",
+      "evidence": {
+        "path": "client/src/modules/editor-finance/components/Form1/Chart.vue"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:my-gym-training",
+      "target": "project:my-gym-training/file:client/src/modules/editor-finance/components/Form1/Modal.vue",
+      "relation": "contains",
+      "evidence": {
+        "path": "client/src/modules/editor-finance/components/Form1/Modal.vue"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:my-gym-training",
+      "target": "project:my-gym-training/file:client/src/modules/editor-finance/components/Form1/MonthlySummary.vue",
+      "relation": "contains",
+      "evidence": {
+        "path": "client/src/modules/editor-finance/components/Form1/MonthlySummary.vue"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:my-gym-training",
+      "target": "project:my-gym-training/file:client/src/modules/editor-finance/components/Form1/Table.vue",
+      "relation": "contains",
+      "evidence": {
+        "path": "client/src/modules/editor-finance/components/Form1/Table.vue"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:my-gym-training",
+      "target": "project:my-gym-training/file:client/src/modules/editor-finance/form/WorkoutDropSet.vue",
+      "relation": "contains",
+      "evidence": {
+        "path": "client/src/modules/editor-finance/form/WorkoutDropSet.vue"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:my-gym-training",
+      "target": "project:my-gym-training/file:client/src/modules/editor-finance/form/WorkoutExercise.vue",
+      "relation": "contains",
+      "evidence": {
+        "path": "client/src/modules/editor-finance/form/WorkoutExercise.vue"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:my-gym-training",
+      "target": "project:my-gym-training/file:client/src/modules/editor-finance/form/WorkoutForm.vue",
+      "relation": "contains",
+      "evidence": {
+        "path": "client/src/modules/editor-finance/form/WorkoutForm.vue"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:my-gym-training",
+      "target": "project:my-gym-training/file:client/src/modules/editor-finance/store/workoutStore.js",
+      "relation": "contains",
+      "evidence": {
+        "path": "client/src/modules/editor-finance/store/workoutStore.js"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:my-gym-training",
+      "target": "project:my-gym-training/file:client/src/modules/editor-finance/table/WorkoutSet.vue",
+      "relation": "contains",
+      "evidence": {
+        "path": "client/src/modules/editor-finance/table/WorkoutSet.vue"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:my-gym-training",
+      "target": "project:my-gym-training/file:client/src/modules/editor-finance/table/WorkoutTable.vue",
+      "relation": "contains",
+      "evidence": {
+        "path": "client/src/modules/editor-finance/table/WorkoutTable.vue"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:my-gym-training",
+      "target": "project:my-gym-training/file:client/src/modules/editor-finance/utils/dateUtils.js",
+      "relation": "contains",
+      "evidence": {
+        "path": "client/src/modules/editor-finance/utils/dateUtils.js"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:my-gym-training",
+      "target": "project:my-gym-training/file:client/src/pages/ChartData.vue",
+      "relation": "contains",
+      "evidence": {
+        "path": "client/src/pages/ChartData.vue"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:my-gym-training",
+      "target": "project:my-gym-training/file:client/src/pages/Deposit.vue",
+      "relation": "contains",
+      "evidence": {
+        "path": "client/src/pages/Deposit.vue"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:my-gym-training",
+      "target": "project:my-gym-training/file:client/src/pages/FinanceSumMonth.vue",
+      "relation": "contains",
+      "evidence": {
+        "path": "client/src/pages/FinanceSumMonth.vue"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:my-gym-training",
+      "target": "project:my-gym-training/file:client/src/pages/TabsMonth.vue",
+      "relation": "contains",
+      "evidence": {
+        "path": "client/src/pages/TabsMonth.vue"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:my-gym-training",
+      "target": "project:my-gym-training/file:client/src/plugins/index.js",
+      "relation": "contains",
+      "evidence": {
+        "path": "client/src/plugins/index.js"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:my-gym-training",
+      "target": "project:my-gym-training/file:client/src/plugins/vuetify.js",
+      "relation": "contains",
+      "evidence": {
+        "path": "client/src/plugins/vuetify.js"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:my-gym-training",
+      "target": "project:my-gym-training/file:client/src/plugins/webfontloader.js",
+      "relation": "contains",
+      "evidence": {
+        "path": "client/src/plugins/webfontloader.js"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:my-gym-training",
+      "target": "project:my-gym-training/file:client/src/router/index.js",
+      "relation": "contains",
+      "evidence": {
+        "path": "client/src/router/index.js"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:my-gym-training",
+      "target": "project:my-gym-training/file:client/src/store/store.js",
+      "relation": "contains",
+      "evidence": {
+        "path": "client/src/store/store.js"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:my-gym-training",
+      "target": "project:my-gym-training/file:client/src/views/404.vue",
+      "relation": "contains",
+      "evidence": {
+        "path": "client/src/views/404.vue"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:my-gym-training",
+      "target": "project:my-gym-training/file:client/src/views/Login.vue",
+      "relation": "contains",
+      "evidence": {
+        "path": "client/src/views/Login.vue"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:my-gym-training",
+      "target": "project:my-gym-training/file:client/src/views/Tool.vue",
+      "relation": "contains",
+      "evidence": {
+        "path": "client/src/views/Tool.vue"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:my-gym-training",
+      "target": "project:my-gym-training/file:client/start-app.sh",
+      "relation": "contains",
+      "evidence": {
+        "path": "client/start-app.sh"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:my-gym-training",
+      "target": "project:my-gym-training/file:client/vite.config.js",
+      "relation": "contains",
+      "evidence": {
+        "path": "client/vite.config.js"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:my-gym-training",
+      "target": "project:my-gym-training/file:github/github/COMMIT_TEMPLATE.md",
+      "relation": "contains",
+      "evidence": {
+        "path": "github/github/COMMIT_TEMPLATE.md"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:my-gym-training",
+      "target": "project:my-gym-training/file:github/github/git-changes-report.common.js",
+      "relation": "contains",
+      "evidence": {
+        "path": "github/github/git-changes-report.common.js"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:my-gym-training",
+      "target": "project:my-gym-training/file:github/github/git-changes-report.module.js",
+      "relation": "contains",
+      "evidence": {
+        "path": "github/github/git-changes-report.module.js"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:my-gym-training",
+      "target": "project:my-gym-training/file:github/list-files/list-files.js",
+      "relation": "contains",
+      "evidence": {
+        "path": "github/list-files/list-files.js"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:my-gym-training",
+      "target": "project:my-gym-training/file:github/tree/generate-directory-tree.js",
+      "relation": "contains",
+      "evidence": {
+        "path": "github/tree/generate-directory-tree.js"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:my-gym-training",
+      "target": "project:my-gym-training/file:server/.eslintrc.js",
+      "relation": "contains",
+      "evidence": {
+        "path": "server/.eslintrc.js"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:my-gym-training",
+      "target": "project:my-gym-training/file:server/NestJS.md",
+      "relation": "contains",
+      "evidence": {
+        "path": "server/NestJS.md"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:my-gym-training",
+      "target": "project:my-gym-training/file:server/README.md",
+      "relation": "contains",
+      "evidence": {
+        "path": "server/README.md"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:my-gym-training",
+      "target": "project:my-gym-training/file:server/create.js",
+      "relation": "contains",
+      "evidence": {
+        "path": "server/create.js"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:my-gym-training",
+      "target": "project:my-gym-training/file:server/nhost.toml",
+      "relation": "contains",
+      "evidence": {
+        "path": "server/nhost.toml"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:my-gym-training",
+      "target": "project:my-gym-training/file:server/package.json",
+      "relation": "contains",
+      "evidence": {
+        "path": "server/package.json"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:my-gym-training",
+      "target": "project:my-gym-training/file:server/pm2.config.js",
+      "relation": "contains",
+      "evidence": {
+        "path": "server/pm2.config.js"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:my-gym-training",
+      "target": "project:my-gym-training/file:server/src/app.js",
+      "relation": "contains",
+      "evidence": {
+        "path": "server/src/app.js"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:my-gym-training",
+      "target": "project:my-gym-training/file:server/src/config.js",
+      "relation": "contains",
+      "evidence": {
+        "path": "server/src/config.js"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:my-gym-training",
+      "target": "project:my-gym-training/file:server/src/controllers/auth.controller.js",
+      "relation": "contains",
+      "evidence": {
+        "path": "server/src/controllers/auth.controller.js"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:my-gym-training",
+      "target": "project:my-gym-training/file:server/src/controllers/exercise-types.controller.js",
+      "relation": "contains",
+      "evidence": {
+        "path": "server/src/controllers/exercise-types.controller.js"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:my-gym-training",
+      "target": "project:my-gym-training/file:server/src/controllers/muscle-groups.controller.js",
+      "relation": "contains",
+      "evidence": {
+        "path": "server/src/controllers/muscle-groups.controller.js"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:my-gym-training",
+      "target": "project:my-gym-training/file:server/src/controllers/workout-sets.controller.js",
+      "relation": "contains",
+      "evidence": {
+        "path": "server/src/controllers/workout-sets.controller.js"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:my-gym-training",
+      "target": "project:my-gym-training/file:server/src/controllers/workout.controller.js",
+      "relation": "contains",
+      "evidence": {
+        "path": "server/src/controllers/workout.controller.js"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:my-gym-training",
+      "target": "project:my-gym-training/file:server/src/db_type.js",
+      "relation": "contains",
+      "evidence": {
+        "path": "server/src/db_type.js"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:my-gym-training",
+      "target": "project:my-gym-training/file:server/src/routers.js",
+      "relation": "contains",
+      "evidence": {
+        "path": "server/src/routers.js"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:my-gym-training/file:client/src/main.js",
+      "target": "project:my-gym-training/file:client/src/App.vue",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "client/src/main.js",
+        "line": 4
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:my-gym-training/file:client/src/main.js",
+      "target": "project:my-gym-training/file:client/src/router/index.js",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "client/src/main.js",
+        "line": 5
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:my-gym-training/file:client/src/main.js",
+      "target": "project:my-gym-training/file:client/src/plugins/index.js",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "client/src/main.js",
+        "line": 6
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:my-gym-training/file:server/src/app.js",
+      "target": "project:my-gym-training/file:server/src/config.js",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "server/src/app.js",
+        "line": 5
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:my-gym-training/file:server/src/app.js",
+      "target": "project:my-gym-training/file:server/src/routers.js",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "server/src/app.js",
+        "line": 6
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:my-gym-training/file:server/src/app.js",
+      "target": "project:my-gym-training/file:server/src/db_type.js",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "server/src/app.js",
+        "line": 7
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:my-gym-training/file:server/src/routers.js",
+      "target": "project:my-gym-training/file:server/src/controllers/workout-sets.controller.js",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "server/src/routers.js",
+        "line": 4
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:my-gym-training/file:server/src/routers.js",
+      "target": "project:my-gym-training/file:server/src/controllers/exercise-types.controller.js",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "server/src/routers.js",
+        "line": 8
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:my-gym-training/file:server/src/routers.js",
+      "target": "project:my-gym-training/file:server/src/controllers/muscle-groups.controller.js",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "server/src/routers.js",
+        "line": 11
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:my-gym-training/file:server/src/routers.js",
+      "target": "project:my-gym-training/file:server/src/controllers/workout.controller.js",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "server/src/routers.js",
+        "line": 14
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:my-gym-training/file:client/src/api/index.js",
+      "target": "project:my-gym-training/file:client/src/api/get_nom.js",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "client/src/api/index.js",
+        "line": 1
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:my-gym-training/file:client/src/api/index.js",
+      "target": "project:my-gym-training/file:client/src/api/get_param.js",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "client/src/api/index.js",
+        "line": 2
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:my-gym-training/file:client/src/plugins/index.js",
+      "target": "project:my-gym-training/file:client/src/plugins/webfontloader.js",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "client/src/plugins/index.js",
+        "line": 2
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:my-gym-training/file:client/src/plugins/index.js",
+      "target": "project:my-gym-training/file:client/src/plugins/vuetify.js",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "client/src/plugins/index.js",
+        "line": 3
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:my-gym-training/file:server/src/controllers/auth.controller.js",
+      "target": "project:my-gym-training/file:server/src/config.js",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "server/src/controllers/auth.controller.js",
+        "line": 6
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:my-gym-training/file:server/src/controllers/auth.controller.js",
+      "target": "project:my-gym-training/file:server/src/db_type.js",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "server/src/controllers/auth.controller.js",
+        "line": 7
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:my-gym-training/file:server/src/controllers/exercise-types.controller.js",
+      "target": "project:my-gym-training/file:server/src/db_type.js",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "server/src/controllers/exercise-types.controller.js",
+        "line": 2
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:my-gym-training/file:server/src/controllers/exercise-types.controller.js",
+      "target": "project:my-gym-training/file:server/src/config.js",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "server/src/controllers/exercise-types.controller.js",
+        "line": 3
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:my-gym-training/file:server/src/controllers/muscle-groups.controller.js",
+      "target": "project:my-gym-training/file:server/src/db_type.js",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "server/src/controllers/muscle-groups.controller.js",
+        "line": 2
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:my-gym-training/file:server/src/controllers/muscle-groups.controller.js",
+      "target": "project:my-gym-training/file:server/src/config.js",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "server/src/controllers/muscle-groups.controller.js",
+        "line": 3
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:my-gym-training/file:server/src/controllers/workout-sets.controller.js",
+      "target": "project:my-gym-training/file:server/src/db_type.js",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "server/src/controllers/workout-sets.controller.js",
+        "line": 2
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:my-gym-training/file:server/src/controllers/workout-sets.controller.js",
+      "target": "project:my-gym-training/file:server/src/config.js",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "server/src/controllers/workout-sets.controller.js",
+        "line": 3
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:my-gym-training/file:server/src/controllers/workout.controller.js",
+      "target": "project:my-gym-training/file:server/src/db_type.js",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "server/src/controllers/workout.controller.js",
+        "line": 2
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:my-gym-training/file:server/src/controllers/workout.controller.js",
+      "target": "project:my-gym-training/file:server/src/config.js",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "server/src/controllers/workout.controller.js",
+        "line": 3
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:my-gym-training/file:client/src/modules/editor-finance/Home.vue",
+      "target": "project:my-gym-training/file:client/src/modules/editor-finance/form/WorkoutForm.vue",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "client/src/modules/editor-finance/Home.vue",
+        "line": 19
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:my-gym-training/file:client/src/modules/editor-finance/Home.vue",
+      "target": "project:my-gym-training/file:client/src/modules/editor-finance/table/WorkoutTable.vue",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "client/src/modules/editor-finance/Home.vue",
+        "line": 20
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:my-gym-training/file:client/src/modules/editor-finance/form/WorkoutExercise.vue",
+      "target": "project:my-gym-training/file:client/src/modules/editor-finance/form/WorkoutDropSet.vue",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "client/src/modules/editor-finance/form/WorkoutExercise.vue",
+        "line": 126
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:my-gym-training/file:client/src/modules/editor-finance/form/WorkoutForm.vue",
+      "target": "project:my-gym-training/file:client/src/modules/editor-finance/store/workoutStore.js",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "client/src/modules/editor-finance/form/WorkoutForm.vue",
+        "line": 26
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:my-gym-training/file:client/src/modules/editor-finance/form/WorkoutForm.vue",
+      "target": "project:my-gym-training/file:client/src/modules/editor-finance/form/WorkoutExercise.vue",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "client/src/modules/editor-finance/form/WorkoutForm.vue",
+        "line": 28
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:my-gym-training/file:client/src/modules/editor-finance/store/workoutStore.js",
+      "target": "project:my-gym-training/file:client/src/modules/editor-finance/api/workoutApi.js",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "client/src/modules/editor-finance/store/workoutStore.js",
+        "line": 2
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:my-gym-training/file:client/src/modules/editor-finance/table/WorkoutTable.vue",
+      "target": "project:my-gym-training/file:client/src/modules/editor-finance/utils/dateUtils.js",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "client/src/modules/editor-finance/table/WorkoutTable.vue",
+        "line": 58
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:my-gym-training/file:client/src/modules/editor-finance/table/WorkoutTable.vue",
+      "target": "project:my-gym-training/file:client/src/modules/editor-finance/store/workoutStore.js",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "client/src/modules/editor-finance/table/WorkoutTable.vue",
+        "line": 59
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:my-gym-training/file:client/src/modules/editor-finance/table/WorkoutTable.vue",
+      "target": "project:my-gym-training/file:client/src/modules/editor-finance/table/WorkoutSet.vue",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "client/src/modules/editor-finance/table/WorkoutTable.vue",
+        "line": 60
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:my-gym-training/file:client/src/modules/editor-finance/components/Form1/Table.vue",
+      "target": "project:my-gym-training/file:client/src/modules/editor-finance/components/Form1/Modal.vue",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "client/src/modules/editor-finance/components/Form1/Table.vue",
+        "line": 64
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:my-gym-training/file:client/package.json",
+      "target": "package:npm:@date-io/date-fns",
+      "relation": "declares_dependency",
+      "kind": "dependencies",
+      "evidence": {
+        "path": "client/package.json",
+        "line": 14
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:my-gym-training/file:client/package.json",
+      "target": "package:npm:@fontsource/nunito",
+      "relation": "declares_dependency",
+      "kind": "dependencies",
+      "evidence": {
+        "path": "client/package.json",
+        "line": 15
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:my-gym-training/file:client/package.json",
+      "target": "package:npm:@mdi/font",
+      "relation": "declares_dependency",
+      "kind": "dependencies",
+      "evidence": {
+        "path": "client/package.json",
+        "line": 16
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:my-gym-training/file:client/package.json",
+      "target": "package:npm:@ventralnet/vue3-jstree",
+      "relation": "declares_dependency",
+      "kind": "dependencies",
+      "evidence": {
+        "path": "client/package.json",
+        "line": 17
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:my-gym-training/file:client/package.json",
+      "target": "package:npm:axios",
+      "relation": "declares_dependency",
+      "kind": "dependencies",
+      "evidence": {
+        "path": "client/package.json",
+        "line": 18
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:my-gym-training/file:client/package.json",
+      "target": "package:npm:bcrypt",
+      "relation": "declares_dependency",
+      "kind": "dependencies",
+      "evidence": {
+        "path": "client/package.json",
+        "line": 19
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:my-gym-training/file:client/package.json",
+      "target": "package:npm:chart.js",
+      "relation": "declares_dependency",
+      "kind": "dependencies",
+      "evidence": {
+        "path": "client/package.json",
+        "line": 20
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:my-gym-training/file:client/package.json",
+      "target": "package:npm:chartjs-adapter-date-fns",
+      "relation": "declares_dependency",
+      "kind": "dependencies",
+      "evidence": {
+        "path": "client/package.json",
+        "line": 21
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:my-gym-training/file:client/package.json",
+      "target": "package:npm:cors",
+      "relation": "declares_dependency",
+      "kind": "dependencies",
+      "evidence": {
+        "path": "client/package.json",
+        "line": 22
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:my-gym-training/file:client/package.json",
+      "target": "package:npm:date-fns",
+      "relation": "declares_dependency",
+      "kind": "dependencies",
+      "evidence": {
+        "path": "client/package.json",
+        "line": 23
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:my-gym-training/file:client/package.json",
+      "target": "package:npm:dotenv",
+      "relation": "declares_dependency",
+      "kind": "dependencies",
+      "evidence": {
+        "path": "client/package.json",
+        "line": 24
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:my-gym-training/file:client/package.json",
+      "target": "package:npm:joi",
+      "relation": "declares_dependency",
+      "kind": "dependencies",
+      "evidence": {
+        "path": "client/package.json",
+        "line": 25
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:my-gym-training/file:client/package.json",
+      "target": "package:npm:jsonwebtoken",
+      "relation": "declares_dependency",
+      "kind": "dependencies",
+      "evidence": {
+        "path": "client/package.json",
+        "line": 26
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:my-gym-training/file:client/package.json",
+      "target": "package:npm:moment",
+      "relation": "declares_dependency",
+      "kind": "dependencies",
+      "evidence": {
+        "path": "client/package.json",
+        "line": 27
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:my-gym-training/file:client/package.json",
+      "target": "package:npm:pg",
+      "relation": "declares_dependency",
+      "kind": "dependencies",
+      "evidence": {
+        "path": "client/package.json",
+        "line": 28
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:my-gym-training/file:client/package.json",
+      "target": "package:npm:pg-promise",
+      "relation": "declares_dependency",
+      "kind": "dependencies",
+      "evidence": {
+        "path": "client/package.json",
+        "line": 29
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:my-gym-training/file:client/package.json",
+      "target": "package:npm:pinia",
+      "relation": "declares_dependency",
+      "kind": "dependencies",
+      "evidence": {
+        "path": "client/package.json",
+        "line": 30
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:my-gym-training/file:client/package.json",
+      "target": "package:npm:pm2",
+      "relation": "declares_dependency",
+      "kind": "dependencies",
+      "evidence": {
+        "path": "client/package.json",
+        "line": 31
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:my-gym-training/file:client/package.json",
+      "target": "package:npm:roboto-fontface",
+      "relation": "declares_dependency",
+      "kind": "dependencies",
+      "evidence": {
+        "path": "client/package.json",
+        "line": 32
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:my-gym-training/file:client/package.json",
+      "target": "package:npm:swagger-jsdoc",
+      "relation": "declares_dependency",
+      "kind": "dependencies",
+      "evidence": {
+        "path": "client/package.json",
+        "line": 33
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:my-gym-training/file:client/package.json",
+      "target": "package:npm:swagger-ui-express",
+      "relation": "declares_dependency",
+      "kind": "dependencies",
+      "evidence": {
+        "path": "client/package.json",
+        "line": 34
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:my-gym-training/file:client/package.json",
+      "target": "package:npm:vue",
+      "relation": "declares_dependency",
+      "kind": "dependencies",
+      "evidence": {
+        "path": "client/package.json",
+        "line": 35
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:my-gym-training/file:client/package.json",
+      "target": "package:npm:vue-chartjs",
+      "relation": "declares_dependency",
+      "kind": "dependencies",
+      "evidence": {
+        "path": "client/package.json",
+        "line": 36
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:my-gym-training/file:client/package.json",
+      "target": "package:npm:vue-jstree",
+      "relation": "declares_dependency",
+      "kind": "dependencies",
+      "evidence": {
+        "path": "client/package.json",
+        "line": 37
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:my-gym-training/file:client/package.json",
+      "target": "package:npm:vue-router",
+      "relation": "declares_dependency",
+      "kind": "dependencies",
+      "evidence": {
+        "path": "client/package.json",
+        "line": 38
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:my-gym-training/file:client/package.json",
+      "target": "package:npm:vue3-charts",
+      "relation": "declares_dependency",
+      "kind": "dependencies",
+      "evidence": {
+        "path": "client/package.json",
+        "line": 39
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:my-gym-training/file:client/package.json",
+      "target": "package:npm:vue3-jstree-component",
+      "relation": "declares_dependency",
+      "kind": "dependencies",
+      "evidence": {
+        "path": "client/package.json",
+        "line": 40
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:my-gym-training/file:client/package.json",
+      "target": "package:npm:vuetify",
+      "relation": "declares_dependency",
+      "kind": "dependencies",
+      "evidence": {
+        "path": "client/package.json",
+        "line": 41
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:my-gym-training/file:client/package.json",
+      "target": "package:npm:vuex",
+      "relation": "declares_dependency",
+      "kind": "dependencies",
+      "evidence": {
+        "path": "client/package.json",
+        "line": 42
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:my-gym-training/file:client/package.json",
+      "target": "package:npm:webfontloader",
+      "relation": "declares_dependency",
+      "kind": "dependencies",
+      "evidence": {
+        "path": "client/package.json",
+        "line": 43
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:my-gym-training/file:client/package.json",
+      "target": "package:npm:@babel/core",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "client/package.json",
+        "line": 46
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:my-gym-training/file:client/package.json",
+      "target": "package:npm:@babel/preset-env",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "client/package.json",
+        "line": 47
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:my-gym-training/file:client/package.json",
+      "target": "package:npm:@vitejs/plugin-vue",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "client/package.json",
+        "line": 48
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:my-gym-training/file:client/package.json",
+      "target": "package:npm:@vue/test-utils",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "client/package.json",
+        "line": 49
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:my-gym-training/file:client/package.json",
+      "target": "package:npm:@vue/vue3-jest",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "client/package.json",
+        "line": 50
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:my-gym-training/file:client/package.json",
+      "target": "package:npm:babel-jest",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "client/package.json",
+        "line": 51
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:my-gym-training/file:client/package.json",
+      "target": "package:npm:babel-plugin-transform-import-meta",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "client/package.json",
+        "line": 52
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:my-gym-training/file:client/package.json",
+      "target": "package:npm:eslint",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "client/package.json",
+        "line": 53
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:my-gym-training/file:client/package.json",
+      "target": "package:npm:eslint-config-prettier",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "client/package.json",
+        "line": 54
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:my-gym-training/file:client/package.json",
+      "target": "package:npm:eslint-plugin-prettier",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "client/package.json",
+        "line": 55
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:my-gym-training/file:client/package.json",
+      "target": "package:npm:eslint-plugin-vue",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "client/package.json",
+        "line": 56
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:my-gym-training/file:client/package.json",
+      "target": "package:npm:jest",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "client/package.json",
+        "line": 11
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:my-gym-training/file:client/package.json",
+      "target": "package:npm:jest-environment-node",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "client/package.json",
+        "line": 58
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:my-gym-training/file:client/package.json",
+      "target": "package:npm:jest-transform-stub",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "client/package.json",
+        "line": 59
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:my-gym-training/file:client/package.json",
+      "target": "package:npm:prettier",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "client/package.json",
+        "line": 60
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:my-gym-training/file:client/package.json",
+      "target": "package:npm:vite",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "client/package.json",
+        "line": 61
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:my-gym-training/file:client/package.json",
+      "target": "package:npm:vite-plugin-vue-devtools",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "client/package.json",
+        "line": 62
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:my-gym-training/file:client/package.json",
+      "target": "package:npm:vite-plugin-vuetify",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "client/package.json",
+        "line": 63
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:my-gym-training/file:server/package.json",
+      "target": "package:npm:axios",
+      "relation": "declares_dependency",
+      "kind": "dependencies",
+      "evidence": {
+        "path": "server/package.json",
+        "line": 9
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:my-gym-training/file:server/package.json",
+      "target": "package:npm:body-parser",
+      "relation": "declares_dependency",
+      "kind": "dependencies",
+      "evidence": {
+        "path": "server/package.json",
+        "line": 10
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:my-gym-training/file:server/package.json",
+      "target": "package:npm:cors",
+      "relation": "declares_dependency",
+      "kind": "dependencies",
+      "evidence": {
+        "path": "server/package.json",
+        "line": 11
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:my-gym-training/file:server/package.json",
+      "target": "package:npm:dotenv",
+      "relation": "declares_dependency",
+      "kind": "dependencies",
+      "evidence": {
+        "path": "server/package.json",
+        "line": 12
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:my-gym-training/file:server/package.json",
+      "target": "package:npm:express",
+      "relation": "declares_dependency",
+      "kind": "dependencies",
+      "evidence": {
+        "path": "server/package.json",
+        "line": 13
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:my-gym-training/file:server/package.json",
+      "target": "package:npm:express-rate-limit",
+      "relation": "declares_dependency",
+      "kind": "dependencies",
+      "evidence": {
+        "path": "server/package.json",
+        "line": 14
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:my-gym-training/file:server/package.json",
+      "target": "package:npm:faker",
+      "relation": "declares_dependency",
+      "kind": "dependencies",
+      "evidence": {
+        "path": "server/package.json",
+        "line": 15
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:my-gym-training/file:server/package.json",
+      "target": "package:npm:joi",
+      "relation": "declares_dependency",
+      "kind": "dependencies",
+      "evidence": {
+        "path": "server/package.json",
+        "line": 16
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:my-gym-training/file:server/package.json",
+      "target": "package:npm:jsonwebtoken",
+      "relation": "declares_dependency",
+      "kind": "dependencies",
+      "evidence": {
+        "path": "server/package.json",
+        "line": 17
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:my-gym-training/file:server/package.json",
+      "target": "package:npm:node-xlsx",
+      "relation": "declares_dependency",
+      "kind": "dependencies",
+      "evidence": {
+        "path": "server/package.json",
+        "line": 18
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:my-gym-training/file:server/package.json",
+      "target": "package:npm:pg",
+      "relation": "declares_dependency",
+      "kind": "dependencies",
+      "evidence": {
+        "path": "server/package.json",
+        "line": 19
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:my-gym-training/file:server/package.json",
+      "target": "package:npm:pm2",
+      "relation": "declares_dependency",
+      "kind": "dependencies",
+      "evidence": {
+        "path": "server/package.json",
+        "line": 20
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:my-gym-training/file:server/package.json",
+      "target": "package:npm:restify",
+      "relation": "declares_dependency",
+      "kind": "dependencies",
+      "evidence": {
+        "path": "server/package.json",
+        "line": 21
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:my-gym-training/file:server/package.json",
+      "target": "package:npm:winston",
+      "relation": "declares_dependency",
+      "kind": "dependencies",
+      "evidence": {
+        "path": "server/package.json",
+        "line": 22
+      },
+      "method": "manifest"
+    }
+  ]
+}
